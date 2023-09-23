@@ -1,0 +1,77 @@
+/* dashboard.css */
+
+/* Dashboard Container */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f5f5dc;
+
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  height: 698px;
+  margin-right: 10px;
+  border-radius: 0px;
+  background-color: #cf4646;
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Content */
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  font-size: 20px;
+}
+
+/* Top Navigation */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  text-decoration: underline;
+}
